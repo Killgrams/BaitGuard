@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Company Portal Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Work Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+        <div id="phishingWarning" class="hidden">
+            <h2>⚠️ Security Alert!</h2>
+            <p>You just encountered a simulated phishing attempt!</p>
+            <a href="training.html">Learn How to Spot Phishing</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
